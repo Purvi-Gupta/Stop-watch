@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(40, 4, 82);
+}
+
+h1{
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+
+}
+
+.timer{
+    color: rgb(185, 226, 253);
+}
+
+.digit{
+    font-size: 5em;
+    font-weight:800;
+    
+}
+
+.txt{
+    font-size: 2em;
+    font-weight:500;
+    margin-right: 1pc;
+}
+
+ .btn-container{   
+    align-items: center;
+    
+} 
+
+.btn{
+    margin:1em 2em;
+    height: 2.5em;
+    width: 7em;
+    border: none;
+    // box-shadow: 0 0 12px black;
+    border-radius: 1pc;
+    color:white;
+    font-family:cursive;
+    font-size:15px;
+}
+
+#reset:hover{
+    box-shadow: 0 0 12px black , -5px -5px 8px rgb(182, 222, 237) inset;
+}
+
+#reset{
+    background-color: rgb(10, 170, 170);
+    box-shadow: 5px 5px 8px rgb(180, 238, 245) inset , 0 0 12px black ;
+}
+
+#stop{
+    background-color: rgb(183, 8, 8);
+    box-shadow: 5px 5px 8px rgb(247, 141, 132) inset , 0 0 12px black ;
+}
+
+#stop:hover{
+    box-shadow: 0 0 12px black , -5px -5px 8px rgb(247, 141, 132) inset;
+}
+
+#start{
+    background-color: rgb(8, 183, 20);
+    box-shadow: 5px 5px 8px rgb(149, 241, 84) inset , 0 0 12px black ;
+}
+
+#start:hover{
+    box-shadow: 0 0 12px black ,-5px -5px 8px rgb(149, 241, 84) inset;
+}
